@@ -65,6 +65,9 @@ a:visited{
     /* color: black; */
     color: unset;
 }
+a:link{
+    color: unset;
+}
 .emptydiv{
     height: 25px;
     width: 100%;
