@@ -7,19 +7,6 @@
     position: relative;
     z-index: 1;
 }
-.gallery::before{
-    content: "";
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url('../images/gallerybg.jpg');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.1;
-}
 .options{
     display: flex;
     flex-flow: column;
@@ -55,12 +42,8 @@
     text-align: center;
     width: 300px;
     padding: 15px;
-    transition: transform 0.3s;
 }
 
-.card:hover {
-    transform: scale(1.01);
-}
 
 .card img {
     width: 100%;

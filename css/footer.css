@@ -8,28 +8,14 @@
 
 }
 footer {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding: 100px;
     background-color: #152B5A;
     position: relative;
     z-index: 1;
     color: white;
-}
-
-footer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url('../images/footerImg.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.06; 
-    z-index: -1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .fc-title{
@@ -45,17 +31,4 @@ footer::before {
     flex-flow: column;
     gap: 9px;
     color: #aecddd;
-}
-.content:hover{
-    cursor: pointer;
-    color: #feb401;
-}
-
-.extras{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.extras-links{
-    font-size: 12px;
 }

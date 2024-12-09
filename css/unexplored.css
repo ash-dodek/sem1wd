@@ -1,0 +1,10 @@
+.home-main{
+    background: url('../images/unexplored_banner.jpg');
+    z-index: -1;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
